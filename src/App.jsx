@@ -810,7 +810,7 @@ function DetailsPage() {
       <section className="scroll-section scroll-section-event">
         <div className="ceremony-poster-card ceremony-poster-fullscreen">
           <img
-            src="/assets/images/betrothal_bg.jpg"
+            src="/assets/images/betrothal_bg.png"
             alt="Betrothal Ceremony"
             className="ceremony-poster-bg"
           />
@@ -836,7 +836,10 @@ function DetailsPage() {
                 <span className="material-symbols-outlined">location_on</span>
                 <div>
                   <p className="ceremony-detail-label">Venue</p>
-                  <p className="ceremony-detail-value">GEC - st pauls church, Pearl Banquet Hall(second floor)</p>
+                  <p className="ceremony-detail-value">
+                    GEC - st pauls church,<br />
+                    Pearl Banquet Hall(second floor)
+                  </p>
                   <p className="ceremony-detail-value-sub">
                     No.20, Padar Salai Street, Kambar Nagar, Vanagaram, Adayalampattu, Chennai - 600 095.
                   </p>
