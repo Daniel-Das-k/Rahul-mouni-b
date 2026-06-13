@@ -806,7 +806,53 @@ function DetailsPage() {
         </div>
       </section>
 
-      {/* ===== SECTION 4: Wedding Ceremony ===== */}
+      {/* ===== SECTION 4: Betrothal Ceremony ===== */}
+      <section className="scroll-section scroll-section-event">
+        <div className="ceremony-poster-card ceremony-poster-fullscreen">
+          <img
+            src="/assets/images/betrothal_bg.jpg"
+            alt="Betrothal Ceremony"
+            className="ceremony-poster-bg"
+          />
+          <div className="ceremony-poster-overlay">
+            <h3 className="ceremony-poster-title">
+              <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>
+                favorite
+              </span>
+              The Betrothal
+            </h3>
+            <p className="ceremony-poster-subtitle">Engagement &amp; Blessings</p>
+            
+            <div className="ceremony-poster-details">
+              <div className="ceremony-detail-row">
+                <span className="material-symbols-outlined">calendar_today</span>
+                <div>
+                  <p className="ceremony-detail-label">Date &amp; Time</p>
+                  <p className="ceremony-detail-value">June 18th, 2026</p>
+                  <p className="ceremony-detail-value-sub">At 10:30 AM IST</p>
+                </div>
+              </div>
+              <div className="ceremony-detail-row">
+                <span className="material-symbols-outlined">location_on</span>
+                <div>
+                  <p className="ceremony-detail-label">Venue</p>
+                  <p className="ceremony-detail-value">GEC - St. Paul's Church (First Floor)</p>
+                  <p className="ceremony-detail-value-sub">
+                    No.20, Padar Salai Street, Kambar Nagar, Vanagaram, Adayalampattu, Chennai - 600 095.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <button className="btn-primary ceremony-poster-btn" onClick={() => window.open("https://maps.app.goo.gl/r2YzeQpWP4gUVUte6?g_st=ic", "_blank")}>
+              Get Directions
+              <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== SECTION 5: Wedding Ceremony ===== */}
       <section className="scroll-section scroll-section-event">
         <div className="ceremony-poster-card ceremony-poster-fullscreen">
           <img
@@ -852,7 +898,7 @@ function DetailsPage() {
         </div>
       </section>
 
-      {/* ===== SECTION 5: Reception + RSVP + Footer ===== */}
+      {/* ===== SECTION 6: Reception ===== */}
       <section className="scroll-section scroll-section-event">
         <div className="ceremony-poster-card ceremony-poster-fullscreen">
           <img
@@ -896,7 +942,7 @@ function DetailsPage() {
         </div>
       </section>
 
-      {/* ===== SECTION 6: RSVP + Footer ===== */}
+      {/* ===== SECTION 7: RSVP + Footer ===== */}
       <section className="scroll-section scroll-section-rsvp">
         <div className="details-wrapper" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', gap: '2rem', padding: '3rem 1.5rem' }}>
           <section className="rsvp-trigger-section">
