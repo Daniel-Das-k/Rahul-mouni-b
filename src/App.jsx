@@ -828,15 +828,15 @@ function DetailsPage() {
                 <span className="material-symbols-outlined">calendar_today</span>
                 <div>
                   <p className="ceremony-detail-label">Date &amp; Time</p>
-                  <p className="ceremony-detail-value">June 18th, 2026</p>
-                  <p className="ceremony-detail-value-sub">At 10:30 AM IST</p>
+                  <p className="ceremony-detail-value">June 17th, 2026</p>
+                  <p className="ceremony-detail-value-sub">At 6:00 PM IST</p>
                 </div>
               </div>
               <div className="ceremony-detail-row">
                 <span className="material-symbols-outlined">location_on</span>
                 <div>
                   <p className="ceremony-detail-label">Venue</p>
-                  <p className="ceremony-detail-value">GEC - St. Paul's Church (First Floor)</p>
+                  <p className="ceremony-detail-value">GEC - st pauls church, Pearl Banquet Hall(second floor)</p>
                   <p className="ceremony-detail-value-sub">
                     No.20, Padar Salai Street, Kambar Nagar, Vanagaram, Adayalampattu, Chennai - 600 095.
                   </p>
